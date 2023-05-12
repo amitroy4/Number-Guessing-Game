@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 function App() {
   let [p1, setP1] = useState("")
   let [p2, setP2] = useState("")
@@ -67,6 +68,8 @@ function App() {
       setErrorNumber(false)
     }
   }
+
+
   return (
     <div>
       <h1>Number Guessing Game</h1>
